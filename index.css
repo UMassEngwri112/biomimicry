@@ -70,7 +70,7 @@ a {
 }
 .detail-bg {
     width: 100%;
-    height: 110vh;
+    height: 120vh;
  
     color: white;
     display: flex;
@@ -86,8 +86,23 @@ a {
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
+#detail-scarecrow {
+    background: linear-gradient(0deg, rgba(0, 80, 1), 50%, rgba(0, 0, 0, 0)), url("./assets/scarecrow.jpg") center center fixed;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+#detail-plane {
+    background: linear-gradient(0deg, rgba(0, 80, 1), 50%, rgba(0, 0, 0, 0)), url("./assets/davinci-plane.png") center center fixed;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
 #detail-train {
     background: linear-gradient(0deg, rgba(0, 80, 1), 50%, rgba(0, 0, 0, 0)), url("./assets/kingfisher.jpg") center center fixed;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+#detail-gecko {
+    background: linear-gradient(0deg, rgba(0, 80, 1), 50%, rgba(0, 0, 0, 0)), url("./assets/gecko.jpg") center center fixed;
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
